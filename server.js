@@ -8,6 +8,8 @@ const { PORT } = config.get('application')
 
 app.use(express.json({ extended: false }))
 
+app.use('/api/employee', require('./api/routes/Employee'))
+
 const PORT_CONNECTION = process.env.PORT || PORT
 
 app.listen(PORT_CONNECTION, () => {
