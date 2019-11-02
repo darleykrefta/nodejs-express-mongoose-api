@@ -1,0 +1,10 @@
+{
+  "application": {
+    "PORT": 3001
+  },
+  "mongoconnection": {
+    "HOST": "mongodb://localhost",
+    "PORT": 27017,
+    "DB": "employee"
+  }
+}
