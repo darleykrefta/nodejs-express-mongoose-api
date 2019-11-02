@@ -1,0 +1,26 @@
+{
+  "name": "employee-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/darleykrefta/employee-server.git"
+  },
+  "author": "Darley Krefta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/darleykrefta/employee-server/issues"
+  },
+  "homepage": "https://gitlab.com/darleykrefta/employee-server#readme",
+  "dependencies": {
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.7"
+  }
+}
