@@ -1,12 +1,15 @@
 const config = require('config')
 const express = require('express')
 const app = express()
+const cors = require('cors')
 
 require('./config/connection-db/db')
 
 const { PORT } = config.get('application')
 
 app.use(express.json({ extended: false }))
+
+app.use(cors())
 
 app.use('/api/employee', require('./api/routes/Employee'))
 
